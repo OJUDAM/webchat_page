@@ -6,7 +6,7 @@ ul, ol			{ list-style-type: none }
 /* layout */
 div#container	{ text-align:left; width:100%; margin:0 auto; background-color:#fff }
 div#content		{ float:right; width:75%; height: 50rem; background-color:#fff }
-div#navigation	{ position: fixed; width:25%; height : 50rem; z-index: 1; }
+div#profile 	{ position: fixed; width:25%; height : 50rem; z-index: 1; }
 div#footer		{ clear:both; float: right; width:75% }
 div#header      {  height: 20px; margin-left: 85%;}
 /* header */
@@ -16,7 +16,7 @@ div#header	li a 			{ color:#4F4F4F; font-weight:bold; margin-left:10px; text-dec
 
 
 /* navigation */
-div#navigation::after     {
+div#profile::after     {
      width: 100% ;
      height:100%; 
      content:""; 
