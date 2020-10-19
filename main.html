@@ -21,8 +21,24 @@
                     <p>
                         실습
                     </p>
+                   
                 </div>
-                
+                <div id="right-navigation">
+                    <div id="chat">
+					<div>
+						<textarea id="messages" style="overflow-y:scroll" rows="20" cols="30"></textarea> 
+                    </div>
+                    <div>
+						<input type="text" id="sender" value="${sessionScope.id }">
+						<input type="text" id="messageinput">
+					</div>
+					<div>
+						<button type="button" onclick="openSocket();">Open</button>
+						<button type="button" onclick="send();">Send</button>
+						<button type="button" onclick="closeSocket();">Close</button>
+					</div>
+                </div>
+                </div>
             </div>
         </div>
         <div id="profile">

@@ -1,6 +1,30 @@
 @import "mysite.css";
 
-#site-introduction				{ padding:20px;	width:540px; }
+#site-introduction				{ float:left; padding:20px;	width:73%; z-index: 0;}
 #site-introduction img#profile	{ display:block; float:left; width:200px }
 #site-introduction h2		   	{ float:left; width:320px; margin:50px 0 0 20px }
 #site-introduction p			{ clear:both; font-size:1.1em; padding:20px; line-height:1.5em }
+
+div#right-navigation    {
+    float: right;
+    height: 96%; 
+    width: 22%;
+    background-color: bisque; 
+    z-index: 1;
+    margin-top: 20px;
+}
+
+#right-navigation div#chat {
+    margin-left:8px;
+}
+
+div#chat textarea{
+    height: 40rem;
+    background-color: black;
+    color:#fff;
+}
+
+div#chat input{
+    background-color: black;
+    color: #fff;
+}
